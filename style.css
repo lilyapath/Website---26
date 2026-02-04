@@ -1,0 +1,28 @@
+body {
+    font-family: Garamond; 
+    font-size: 14px; 
+    background-color: #fdf7ed; 
+    color: #65492d; 
+}
+@keyframes color-change {
+    0% { color: rgb(159, 113, 79); } 
+    50% { color: rgb(129, 76, 38); } 
+    100% { color: rgb(62, 28, 3); } 
+}
+h1 {
+    color: #5c0f0f; 
+    font-size: 34px;
+    text-align: center;
+    font-family: Garamond, serif; 
+    animation: color-change 3s infinite;
+}
+h2:hover {
+    animation: color-change 3s infinite;
+}
+h3:hover {
+    animation: color-change 3s infinite;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
